@@ -10,7 +10,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        VersionView versionView = new VersionView(this);
-        setContentView(versionView);
+        setContentView(R.layout.activity_main);
     }
 }
