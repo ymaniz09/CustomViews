@@ -3,6 +3,7 @@ package com.github.customviews;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.util.AttributeSet;
 
 import androidx.annotation.Nullable;
@@ -36,5 +37,6 @@ public class VersionView extends AppCompatTextView {
         }
 
         setText(version);
+        setBackgroundColor(Color.RED);
     }
 }
